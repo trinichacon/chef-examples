@@ -1,0 +1,28 @@
+E, [2021-06-11T20:09:54.239343 #16719] ERROR -- Kitchen: ------Exception-------
+E, [2021-06-11T20:09:54.239451 #16719] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2021-06-11T20:09:54.239478 #16719] ERROR -- Kitchen: Message: Kitchen YAML file /home/trinidadchaconn/chef-repo/cookbooks/example/kitchen.yml does not exist.
+E, [2021-06-11T20:09:54.239494 #16719] ERROR -- Kitchen: ----------------------
+E, [2021-06-11T20:09:54.239507 #16719] ERROR -- Kitchen: ------Backtrace-------
+E, [2021-06-11T20:09:54.239520 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2021-06-11T20:09:54.239533 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/lib/kitchen/config.rb:153:in `data'
+E, [2021-06-11T20:09:54.239812 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/lib/kitchen/config.rb:131:in `suites'
+E, [2021-06-11T20:09:54.239877 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/lib/kitchen/config.rb:183:in `filter_instances'
+E, [2021-06-11T20:09:54.239901 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/lib/kitchen/config.rb:142:in `build_instances'
+E, [2021-06-11T20:09:54.239916 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/lib/kitchen/config.rb:116:in `instances'
+E, [2021-06-11T20:09:54.239930 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/lib/kitchen/command.rb:109:in `filtered_instances'
+E, [2021-06-11T20:09:54.239956 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/lib/kitchen/command.rb:139:in `parse_subcommand'
+E, [2021-06-11T20:09:54.239970 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/lib/kitchen/command/list.rb:29:in `call'
+E, [2021-06-11T20:09:54.239983 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/lib/kitchen/cli.rb:52:in `perform'
+E, [2021-06-11T20:09:54.239996 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/lib/kitchen/cli.rb:120:in `list'
+E, [2021-06-11T20:09:54.240009 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/thor-1.1.0/lib/thor/command.rb:27:in `run'
+E, [2021-06-11T20:09:54.240022 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/thor-1.1.0/lib/thor/invocation.rb:127:in `invoke_command'
+E, [2021-06-11T20:09:54.240035 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/thor-1.1.0/lib/thor.rb:392:in `dispatch'
+E, [2021-06-11T20:09:54.240047 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/thor-1.1.0/lib/thor/base.rb:485:in `start'
+E, [2021-06-11T20:09:54.240060 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/bin/kitchen:11:in `block in <top (required)>'
+E, [2021-06-11T20:09:54.240072 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/lib/kitchen/errors.rb:170:in `with_friendly_errors'
+E, [2021-06-11T20:09:54.240138 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/test-kitchen-2.11.2/bin/kitchen:11:in `<top (required)>'
+E, [2021-06-11T20:09:54.240164 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/bin/kitchen:23:in `load'
+E, [2021-06-11T20:09:54.240178 #16719] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.7.2/bin/kitchen:23:in `<main>'
+E, [2021-06-11T20:09:54.240191 #16719] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.7.2/bin/ruby_executable_hooks:24:in `eval'
+E, [2021-06-11T20:09:54.240203 #16719] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.7.2/bin/ruby_executable_hooks:24:in `<main>'
+E, [2021-06-11T20:09:54.240228 #16719] ERROR -- Kitchen: ----End Backtrace-----
